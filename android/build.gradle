@@ -43,9 +43,10 @@ android {
         minSdkVersion 21
     }
 
+    namespace 'com.piccmaq.flutter_paypal_native'
 }
 
 dependencies {
-    implementation 'com.paypal.checkout:android-sdk:1.2.0'
+    implementation 'com.paypal.checkout:android-sdk:1.2.1'
     implementation 'com.google.code.gson:gson:2.9.1'
 }
